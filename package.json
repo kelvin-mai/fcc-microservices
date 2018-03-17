@@ -1,0 +1,12 @@
+{
+  "name": "shortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.10",
+    "shorteners": "^1.0.0",
+    "valid-url": "^1.0.9"
+  }
+}
