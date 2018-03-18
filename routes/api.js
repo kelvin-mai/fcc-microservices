@@ -4,6 +4,12 @@ const router = require('express').Router(),
 
 const db = require('../models');
 
+router.get('/', (req, res) => {
+	db.Url.find()
+		.then(links => res.json(links))
+		.catch(err => res.json(err));
+});
+
 router
 	.route('/*')
 	.get((req, res) => {
