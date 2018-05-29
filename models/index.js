@@ -4,3 +4,4 @@ mongoose.connect(process.env.DATABASE || 'mongodb://localhost/microservice');
 mongoose.Promise = global.Promise;
 
 module.exports.Url = require('./url');
+module.exports.Image = require('./image');
