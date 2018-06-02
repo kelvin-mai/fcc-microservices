@@ -1,21 +1,21 @@
 {
-	"name": "shortener",
-	"version": "1.0.0",
-	"main": "index.js",
-	"license": "MIT",
-	"scripts": {
-		"start": "node index.js",
-		"dev": "nodemon index.js"
-	},
-	"dependencies": {
-		"axios": "^0.18.0",
-		"cors": "^2.8.4",
-		"dotenv": "^5.0.1",
-		"express": "^4.16.3",
-		"mongoose": "^5.0.10",
-		"multer": "^1.3.0",
-		"shorteners": "^1.0.0",
-		"useragent": "^2.3.0",
-		"valid-url": "^1.0.9"
-	}
+  "name": "shortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.10",
+    "multer": "^1.3.0",
+    "shorteners": "^1.0.0",
+    "useragent": "^2.3.0",
+    "valid-url": "^1.0.9"
+  }
 }
