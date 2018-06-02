@@ -20,11 +20,19 @@ A Collection of all the freeCodeCamp Microservice exercises
 * If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.
 * When I visit that shortened URL, it will redirect me to my original link.
 
-### Image Abstraction Layer
+### Exercise Tracker
+
+* I can add users
+* I can add exercises to users
+* I can view all exercises from each user
+
+<!-- Image Abstraction Layer Removed from freeCodeCamp Curriculum -->
+
+<!-- ### Image Abstraction Layer
 
 * I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
 * I can paginate through the responses by adding a ?offset=2 parameter to the URL.
-* I can get a list of the most recently submitted search strings.
+* I can get a list of the most recently submitted search strings. -->
 
 ### File Metadata
 
